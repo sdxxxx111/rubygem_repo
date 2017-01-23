@@ -2,9 +2,9 @@ Gem::Specification.new do |s|
   s.name        = 'mygem'
   s.version     = '0.0.1'
   s.executables << 'hoge'
-  s.date        = '2016-12-12'
-  s.summary     = "はじめてのgem"
-  s.description = "Ruby実習2で作成した、はじめてのgem。"
+  s.date        = '2017-1-23'
+  s.summary     = "提出課題"
+  s.description = "Ruby実習2提出課題"
   s.authors     = ["Taro Yamada"]
   s.email       = 'hoge@fugamail.com'
   s.files       = ["lib/mygem.rb"]
