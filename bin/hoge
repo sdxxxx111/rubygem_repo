@@ -1,4 +1,11 @@
 #!/usr/bin/env ruby
 
 require 'mygem'
-puts Mygem.hi
+mygem = Mygem.new
+puts "足し算#{mygem.my_plus}"
+puts "引き算#{mygem.my_minus}"
+puts "ansの中身#{mygem.return_Ans}"
+puts "ansのリセット#{mygem.ans_reset}"
+puts "リセットあとのansの中身#{mygem.return_Ans}"
+puts "掛け算#{mygem.my_multiplied}"
+puts "割り算#{mygem.my_divided}"
